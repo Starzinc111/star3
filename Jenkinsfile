@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Build/Print Message') {
       steps {
         echo 'First Jenkins Pipeline'
       }
